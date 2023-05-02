@@ -1,5 +1,5 @@
 variables:
-  stream: testing-devel
+  stream: experimental
   prod: false
 
 releasever: 38
@@ -12,4 +12,6 @@ repos:
   - fedora
   - fedora-updates
 
-include: manifests/fedora-coreos.yaml
+include:
+  - manifests/fedora-coreos.yaml
+  - manifests/bootc.yaml

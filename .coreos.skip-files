@@ -1,0 +1,4 @@
+# See https://github.com/coreos/fedora-coreos-releng-automation/pull/171
+# This suppresses config-bot removing these files
+manifests/bootc.yaml
+fedora-copr-bootc.repo
