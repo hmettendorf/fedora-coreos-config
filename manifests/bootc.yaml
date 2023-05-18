@@ -1,7 +1,0 @@
-# This implements https://github.com/coreos/fedora-coreos-tracker/issues/1446
-
-repos:
-  - bootc-fedora
-
-packages:
-    - bootc
