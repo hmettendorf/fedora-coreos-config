@@ -1,0 +1,5 @@
+include: fedora-coreos.yaml
+
+exclude-packages:
+  - moby-engine
+  - containerd
